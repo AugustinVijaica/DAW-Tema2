@@ -1,0 +1,58 @@
+{
+  "Navbar": {
+    "home": "Acasă",
+    "news": "Noutăți",
+    "about": "Despre noi",
+    "rent": "Închirieri",
+    "sale": "Vânzări",
+    "options": {
+      "studio": "Garsoniere",
+      "flat": "Apartamente",
+      "house": "Case"
+    },
+    "contact": "Contact"
+  },
+  "Home": {
+    "header": "Bun Venit!",
+    "s-header":"Cele mai Bune oferte pentru imobiliare în Cluj-Napoca!",
+    "about-btn": "Află mai multe",
+    "most-viewed": "Cele mai vizualizate oferte",
+    "new": "Cele mai noi ofetre",
+    "opportunities": "Oportunități pentru investiții",
+    "special": "Cele mai deosebite oferte"
+  },
+
+  "News": {
+    "header": "Noutăți",
+    "offer": "Oferta lunii",
+    "details": "Detalii",
+    "room": "Camere",
+    "area": "Suprafață utilă"
+  },
+
+  "About": {
+    "header": "Despre Noi",
+    "abt": "Vrei să faci o investiție imobiliară? Află de la echipa e-Mobiliare care sunt oportunitățile pe acest segment de piață, dar și cum îți stabilești sursele de finanțare, cum calculezi randamentul unei proprietăți, cum te asiguri că investiția va fi profitabilă și care sunt cele mai potrivite metode de negociere pentru a te asigura că ai făcut o afacere bună pe termen lung.",
+    "s-abt": "Platforma noastră de închirieri/vânzări imobiliare vă oferă siguranță sporită, accesibilitate și prețuri foarte mici. Ne asigurăm că experiența dumneavoastră este una plăcută în cadrul aplicației noastre",
+    "team": "Echipa Noastră"
+  },
+
+  "Rental-Sale": {
+    "title-s": "Garsonieră de închiriat",
+    "title-f": "Apartament de închiriat",
+    "title-h": "Casă de închiriat",
+    "details": "Detalii",
+    "room": "Camere",
+    "area": "Suprafață utilă"
+  },
+
+  "Contact": {
+    "header": "Contact",
+    "title": "Titlu",
+    "first-name": "Prenume",
+    "last-name": "Nume",
+    "phone": "Număr Telefon",
+    "check": "Sunt de acord cu termenii și condițiile precizate",
+    "submit": "Trimite"
+  }
+}

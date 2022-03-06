@@ -1,0 +1,51 @@
+.bg {
+  background-color: #495057;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-height: 100%;
+  height: fit-content;
+
+}
+
+.text-container {
+  position: absolute;
+  top: 5rem;
+  left: 1rem;
+  z-index: 100;
+  font-size: 50px;
+}
+
+.container {
+  margin-top: 2rem;
+}
+
+.n-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 100vh;
+}
+
+.container {
+  margin-top: 2rem;
+}
+
+.form-grp {
+  margin-top: 2rem;
+}
+
+.row {
+  padding: 1rem;
+  margin: 0;
+}
+
+.form-control {
+  height: 3.5rem;
+}
+
+.form-control::placeholder {
+  font-size: 1.2rem;
+}

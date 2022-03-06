@@ -1,0 +1,58 @@
+.bg{
+  background-color: #495057;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-height: 100%;
+  height: fit-content;
+}
+
+
+.rent-container{
+  position: relative;
+  text-align: center;
+  color: white;
+  min-height: 100%;
+  height: fit-content;
+}
+
+.text-container{
+  position:absolute;
+  top: 5rem;
+  left: 1rem;
+  z-index: 100;
+  font-size: 50px;
+}
+
+.container{
+  margin-top: 2rem;
+}
+
+.card{
+  background-color: #343a40;
+  overflow: hidden;
+}
+
+div  .exclusive {
+  color: rgb(255, 255, 115);
+}
+
+.featured {
+  background-color: #343a40;
+  float: left;
+  transform: rotate(-37deg);
+  left: -29px;
+  top: 32px;
+  position: relative;
+  text-align: center;
+  width: 200px;
+  font-size: 18px;
+  margin: 0;
+  z-index: 999;
+}
+span {
+  color: rgb(232, 230, 227);
+  background-color: rgba(56, 61, 64, 0.7);
+}

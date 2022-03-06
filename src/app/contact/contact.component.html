@@ -1,0 +1,49 @@
+<div class="n-container">
+  <div class="bg">
+    <img style="padding-top:3.5rem;width:100%;height:33%" src="assets/img/home-cluj.webp">
+    <div class=text-container>{{'Contact.header'| translate}}</div>
+    <form class="form-grp">
+      <div class="row justify-content-center">
+        <div class="col-md-3">
+          <input type="text" class="form-control" [placeholder]="'Contact.title'| translate">
+        </div>
+        <div class="col-md-3">
+          <input type="text" class="form-control" [placeholder]="'Contact.last-name'| translate">
+        </div>
+        <div class="col-md-3">
+          <input type="text" class="form-control" [placeholder]="'Contact.first-name'| translate">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-4">
+          <input type="text" class="form-control" placeholder="email@example.com">
+        </div>
+        <div class="col-md-4">
+          <input type="text" class="form-control" [placeholder]="'Contact.phone'| translate">
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <textarea class="form-control" style="height: 100%" id="exampleFormControlTextarea1" placeholder="Text" rows="3"></textarea>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-5 form-check ">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">{{'Contact.check'| translate}}</label>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-3">
+          <button type="submit" class="btn btn-primary">{{'Contact.submit'| translate}}</button>
+        </div>
+      </div>
+    </form>
+
+  </div>
+</div>

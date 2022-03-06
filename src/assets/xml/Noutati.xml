@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<News>
+   <Card>
+      <titlu>Garsoniera de închiriat, GACJ327996</titlu>
+      <id>IDGACJ327996</id>
+      <suprafata>11</suprafata>
+      <camere>1</camere>
+     <img>
+       <path>assets/img/g1.jpg</path>
+       <path>assets/img/g1-2.jpg</path>
+       <path>assets/img/g1-3.jpg</path>
+     </img>
+   </Card>
+  <Card>
+    <titlu>Garsoniera de închiriat, GACJ327996</titlu>
+    <id>IDGACJ327996</id>
+    <suprafata>11</suprafata>
+    <camere>1</camere>
+    <img>
+      <path>assets/img/g2.jpg</path>
+      <path>assets/img/g2-2.jpg</path>
+      <path>assets/img/g2-3.jpg</path>
+    </img>
+  </Card>
+  <Card>
+    <titlu>Garsoniera de închiriat, GACJ327996</titlu>
+    <id>IDGACJ327996</id>
+    <suprafata>11</suprafata>
+    <camere>1</camere>
+    <img>
+      <path>assets/img/g3.jpg</path>
+      <path>assets/img/g3-2.jpg</path>
+      <path>assets/img/g3-3.jpg</path>
+    </img>
+  </Card>
+  <Card>
+    <titlu>Apartament de închiriat 2 camere, APCJ326647</titlu>
+    <id>APCJ326647</id>
+    <suprafata>60</suprafata>
+    <camere>2</camere>
+    <img>
+      <path>assets/img/ap1.jpg</path>
+      <path>assets/img/ap1-2.jpg</path>
+      <path>assets/img/ap1-3.jpg</path>
+    </img>
+  </Card>
+</News>

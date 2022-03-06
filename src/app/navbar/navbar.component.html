@@ -1,0 +1,51 @@
+<router-outlet></router-outlet>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <a class="navbar-brand" href=".">
+    <img src="assets/img/home.png" width="30" height="30" alt="home">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href=".">{{'Navbar.home' | translate}} <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="news">{{'Navbar.news' | translate}}</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="about-us" >{{'Navbar.about' | translate}} <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="rent" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          {{'Navbar.rent' | translate}}
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" [routerLink]="'rent'" [fragment]="'garsoniere'">{{'Navbar.options.studio' | translate}}</a>
+          <a class="dropdown-item" [routerLink]="'rent'" [fragment]="'apartamente'">{{'Navbar.options.flat' | translate}}</a>
+          <a class="dropdown-item" [routerLink]="'rent'" [fragment]="'case'">{{'Navbar.options.house' | translate}}</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="sale" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          {{'Navbar.sale' | translate}}
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" [routerLink]="'sale'" [fragment]="'garsoniere'">{{'Navbar.options.studio' | translate}}</a>
+          <a class="dropdown-item" [routerLink]="'sale'" [fragment]="'apartamente'">{{'Navbar.options.flat' | translate}}</a>
+          <a class="dropdown-item" [routerLink]="'sale'" [fragment]="'case'">{{'Navbar.options.house' | translate}}</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="contact">  {{'Navbar.contact' | translate}} <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item language">
+        <select #lang class="form-select form-select-sm" aria-label="Limba" (change)="translateLanguageTo(lang.value)">
+          <option *ngFor="let language of translate.getLangs()" [selected]="language === translate.getDefaultLang()" [value]="language">{{language}}</option>
+        </select>
+      </li>
+    </ul>
+  </div>
+</nav>

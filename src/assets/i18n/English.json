@@ -1,0 +1,57 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "news": "News",
+    "about": "About us",
+    "rent": "Rentals",
+    "sale": "Sales",
+    "options": {
+      "studio": "Studios",
+      "flat": "Flats",
+      "house": "Houses"
+    },
+    "contact": "Contact"
+  },
+  "Home": {
+    "header": "Welcome!",
+    "s-header":"The best offers for real estate in Cluj-Napoca!",
+    "about-btn": "Find out more",
+    "most-viewed": "Most viewed offers",
+    "new": "Newest offers",
+    "opportunities": "Opportunities for investments",
+    "special": "Most distinguished offers"
+  },
+  "News": {
+    "header": "News",
+    "offer": "Offer of the month",
+    "details": "Details",
+    "room": "Rooms",
+    "area": "Usable area"
+  },
+
+  "About": {
+    "header": "About Us",
+    "abt": "Do you want to make a real estate investment? Find out from the e-Mobiliare team what the opportunities are in this market segment, but also how you determine your financing sources, how you calculate the yield of a property, how you make sure that the investment will be profitable and what are the best negotiation methods to make sure you have a good long-term business.",
+    "s-abt": "Our real estate rental / sales platform offers you increased security, accessibility and very low prices. We make sure that your experience is a pleasant one in our application",
+    "team": "Our Team"
+  },
+
+  "Rental-Sale": {
+    "title-s": "Studio for rental",
+    "title-f": "Flat for rental",
+    "title-h": "House for rental",
+    "details": "Details",
+    "room": "Rooms",
+    "area": "Usable area"
+  },
+
+  "Contact": {
+    "header": "Contact",
+    "title": "Title",
+    "first-name": "First Name",
+    "last-name": "Last Name",
+    "phone": "Phone Number",
+    "check": "I agree to the terms and conditions specified",
+    "submit": "Submit"
+  }
+}

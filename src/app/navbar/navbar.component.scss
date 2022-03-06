@@ -1,0 +1,16 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.bg-light{
+  background-color: #117a8b !important;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: whitesmoke;
+}
+
+.nav-item.language{
+  width: fit-content;
+  display: flex;
+}
+
+
